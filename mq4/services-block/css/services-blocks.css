@@ -1,0 +1,18 @@
+.section__header {
+  font-size: 12px;
+}
+
+.section__title {
+  font-size: 2em;
+}
+
+.post__name {
+  font-size: 1.5em;
+  margin: auto;
+}
+
+@media (max-width: 480px) {
+  .section__header {
+    font-size: 10px;
+  }
+}
