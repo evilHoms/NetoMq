@@ -1,7 +1,3 @@
-.section__header {
-  font-size: 12px;
-}
-
 .section__title {
   font-size: 2em;
 }
@@ -12,7 +8,21 @@
 }
 
 @media (max-width: 480px) {
+  .post {
+    font-size: 12px;
+  }
+  
   .section__header {
     font-size: 10px;
+  }
+}
+
+@media (min-width: 481px) {
+  .post {
+    font-size: 14px;
+  }
+
+  .section__header {
+    font-size: 12px;
   }
 }
